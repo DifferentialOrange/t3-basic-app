@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# The main purpose of this script is to build non-standard rocks modules.
+# The script will run before `tt rocks make` during application build.
+
+rm ./rocks
+rm credentials.txt
+rm *.tar.gz

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# The main purpose of this script is to build non-standard rocks modules.
+# The script will run before `tt rocks make` during application build.
+
+tt rocks install ./rocks/crud-scm-1.all.rock

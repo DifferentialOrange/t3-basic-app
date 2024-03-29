@@ -1,0 +1,17 @@
+# tt files.
+tt.yaml
+bin/
+distfiles/
+include/
+instances.enabled/
+modules/
+templates/
+
+# user files for tt
+credentials.txt
+
+# artifacts
+*.tar.gz
+
+# local build
+.rocks
