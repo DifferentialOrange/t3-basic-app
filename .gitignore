@@ -15,3 +15,6 @@ credentials.txt
 
 # local build
 .rocks
+
+# application runtime
+var
