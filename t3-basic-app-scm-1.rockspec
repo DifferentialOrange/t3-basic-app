@@ -1,4 +1,4 @@
-package = 't3-ee-cluster-ft'
+package = 't3-basic-app'
 version = 'scm-1'
 source  = {
     url = '/dev/null',
