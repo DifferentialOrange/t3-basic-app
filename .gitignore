@@ -18,3 +18,6 @@ credentials.txt
 
 # application runtime
 var
+
+# etcd runtime
+default.etcd

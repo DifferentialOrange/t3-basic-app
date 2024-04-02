@@ -6,3 +6,4 @@
 rm -rf rocks
 rm -rf credentials.txt
 rm -rf *.tar.gz
+rm -rf default.etcd
