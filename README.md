@@ -24,7 +24,7 @@ ETCDCTL_API=3 etcdctl auth enable
 
 To publish a configuration
 ```bash
-tt cluster publish "http://sampleuser:123456@localhost:2379/myapp" source.yaml
+tt cluster publish "http://sampleuser:123456@localhost:2379/myapp/" source.yaml
 ```
 
 To start an application

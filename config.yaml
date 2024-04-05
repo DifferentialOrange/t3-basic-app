@@ -2,7 +2,7 @@ config:
   etcd:
     endpoints:
     - http://localhost:2379
-    prefix: /myapp
+    prefix: /myapp/
     username: sampleuser
     password: '123456'
     http:
