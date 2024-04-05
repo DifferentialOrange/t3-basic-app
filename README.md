@@ -31,3 +31,8 @@ To start an application
 ```bash
 tt start
 ```
+
+Additionally
+```bash
+ETCDCTL_API=3 etcdctl role grant-permission myapp_config_manager --prefix=true readwrite /myapp_migrations/ --user="root:topsecret"
+```
