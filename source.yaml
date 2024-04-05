@@ -20,6 +20,14 @@ iproto:
 sharding:
   bucket_count: 3000
 
+roles_cfg:
+  roles.async_migrator:
+    endpoints:
+      - http://localhost:2379
+    prefix: /myapp_migrations/
+    username: sampleuser
+    password: '123456'
+
 groups:
   routers:
     app:
@@ -28,6 +36,7 @@ groups:
       roles: [router]
     roles:
       - roles.crud-router
+      - roles.async_migrator
     replicasets: 
       router-001:
         instances: 
@@ -42,6 +51,7 @@ groups:
       roles: [storage]
     roles:
       - roles.crud-storage
+      - roles.async_migrator
     replication:
       failover: manual
     replicasets:
